@@ -1,0 +1,289 @@
+.container-fluid
+{
+	margin: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+	padding-right: 0;
+	border:none;
+}
+.announcement-bar
+{
+	background-color: #e2e7e6;
+	padding:12px 10px 15px 10px;
+	border-bottom: #ddd;
+	width: :100%;
+	overflow: hidden;
+	box-sizing: border-box;
+	display: block;
+	text-align: center;
+	font-family: 'CMarcellus';
+	border-bottom: 1px solid #aba5a52b;
+}
+.announcement-bar a
+{
+	color: black;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 200;
+    color: #636060;
+    letter-spacing: 0.1em;
+}
+.navbar-inverse .navbar-brand
+{
+    color: black;
+}
+
+.navbar, .navbar-inverse 
+{
+	background-color:#e2e7e6;
+	border-color: #e2e7e6;
+	margin:0;
+}
+.navbar-inverse .navbar-toggle
+{
+	background-color:#e2e7e6;
+	border-color: #e2e7e6;
+	color:black;
+
+}
+.navbar-inverse .navbar-nav>li>a
+{
+    color: #636060;
+    padding-right:40px;
+    padding-left: 30px;
+    font-size:12px;
+}
+.navbar-inverse button
+{
+	color:black;
+}
+.navbar-inverse .navbar-brand
+{
+	color:#636060;
+	font-family: "LeituraNews-Roman1";
+	letter-spacing: 3px;
+	background-color:#e2e7e6;
+	padding:15px 45px 15px 30px;
+	margin:0;
+	font-size: 22px;
+	text-align: center;
+
+}
+.nav
+{
+	vertical-align: top;
+	z-index:;
+}
+img
+{
+	display:block;
+	height:80%;
+	width:100%;
+	background-position: center;
+	background-size:contain;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.Onposter
+{
+	background-color: yellow;
+	float:left;
+	width:150px;
+	position: absolute;
+}
+.block
+{
+  position: absolute;
+  bottom: 80px;
+  left: 80px;
+  background-color: transparent;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left;
+  max-width: 350px;
+  -webkit-transition: height 2s;
+  text-align: center;
+ }
+ .block p
+ {
+  color: black;
+  font-size: 28px;
+  text-align: right;
+  font-family: "Austin News Headline Web",sans-serif;
+  font-weight: 100;
+
+
+}
+ .block a
+ {
+ 	color:black;
+ }
+ .banner
+ {
+ 	padding: 50px;
+ 	background-color: #ced7d5;
+ 	text-align: center;
+ }
+ .banner p
+ {
+ 	font-size: 23px;
+ 	font-weight: 200;
+ 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+ }
+a
+ {
+ 	color:black;
+ 	text-decoration: none;
+ }
+a:hover
+ {
+ 	text-decoration: underline;
+ }
+ .Featuredtext-withImage
+ {
+ 	height: auto;
+ }
+.Image-Block1
+{
+	width: 50%;
+	float:left;
+
+}
+.Featuredtext-withImage .Description-Block1
+{
+	width: 50%;
+	height: 100%;
+	float: left;
+	padding: 90px 40px;
+	text-align: center;
+}
+.Featuredtext-withImage .Description-Block1 h3
+{
+	font-size: :10px;
+	font-weight: 100;
+	font-family: "Austin News Headline Web",sans-serif;
+}
+.Featuredtext-withImage .Description-Block1 h2
+{
+}
+.Featuredtext-withImage .Description-Block1 p
+{
+	font-style: italic; 
+}
+
+.Featuredtext-withImage
+ {
+ 	height: auto;
+ 	float:left;
+ }
+.Image-Block2
+{
+	width: 50%;
+	float:right;
+
+}
+.Featuredtext-withImage .Description-Block2
+{
+	width: 50%;
+	height: inherit;
+	float: left;
+	padding: 50px 30px;
+	text-align: center;
+}
+.Featuredtext-withImage .Description-Block2 h3
+{
+	font-size: :10px;
+	font-weight: 100;
+	font-family: "Austin News Headline Web",sans-serif;
+}
+.Featuredtext-withImage .Description-Block2 h2
+{
+}
+.Featuredtext-withImage .Description-Block2 p
+{
+	font-style: italic; 
+}
+@media screen and (max-width: 1000px)
+{
+	.Featuredtext-withImage .Description-Block2
+	{
+		width:100%;
+	}
+	.Featuredtext-withImage .Description-Block1
+	{
+		width:100%;
+	}
+	.Image-Block1
+	{
+		width: 100%;
+	}
+	.Image-Block2
+	{
+		width: 100%;
+	}
+}
+footer
+{
+	background-color: #e5eae9;
+	margin:0;
+}
+footer .row
+{
+	padding-top:15px;
+	padding-bottom:10px;
+	margin:0;
+}
+footer li
+{
+	padding:10px;
+	font-family: Courier New;
+	margin:0 auto;
+	display: block;
+	text-align: left;
+}
+footer .col-sm-4
+{
+	margin:0 auto;
+	padding-top:20px;
+	
+	border-left: 1px solid #bac1c0;
+	
+}
+form label
+{
+	font-family: Courier New;
+	margin:0 auto;
+	display: block;
+	text-align: left;
+	padding-top: 30px;
+	letter-spacing: 3px;
+	font-style: italic;
+}
+form input
+{
+	border-radius: 5px;
+	padding-top:8px;
+	padding-bottom: 8px;
+	height:25px;
+	width:70%;
+	border-bottom: 1px solid #bac1c0;
+	background-color: #cbd2d1;
+}
+
+.btn
+{
+	height:26px;
+	position:absolute;
+	background-color: #cbd2d1;
+	border-bottom: 1px solid #868a89;
+	letter-spacing: 2px;
+}
+.col-sm-4 p
+{
+	padding:17px;
+	font-size:15px;
+	text-align: right;
+}
+
+
+
