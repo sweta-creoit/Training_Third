@@ -6,6 +6,23 @@
 	padding-right: 0;
 	border:none;
 }
+.section-float
+{
+	position:relative;
+}
+.section-float p
+{
+	line-height:30px;
+}
+.section-float h6
+{
+	line-height: 35px;
+}
+.section-float a
+{
+	               
+}
+
 .announcement-bar
 {
 	background-color: #e2e7e6;
@@ -103,6 +120,7 @@ img
   max-width: 350px;
   -webkit-transition: height 2s;
   text-align: center;
+  clear: left;
  }
  .block p
  {
@@ -174,7 +192,7 @@ a:hover
 .Featuredtext-withImage
  {
  	height: auto;
- 	float:left;
+ 	overflow:auto;
  }
 .Image-Block2
 {
@@ -221,6 +239,7 @@ a:hover
 	{
 		width: 100%;
 	}
+	
 }
 footer
 {
@@ -245,9 +264,7 @@ footer .col-sm-4
 {
 	margin:0 auto;
 	padding-top:20px;
-	
 	border-left: 1px solid #bac1c0;
-	
 }
 form label
 {
@@ -257,7 +274,7 @@ form label
 	text-align: left;
 	padding-top: 30px;
 	letter-spacing: 3px;
-	font-style: italic;
+	
 }
 form input
 {
@@ -284,6 +301,46 @@ form input
 	font-size:15px;
 	text-align: right;
 }
+@media screen and(max-width:525px)
+{
+	.block
+	{
+		position: relative;
+		
+		background-color: transparent;
+		padding-left: 20px;
+		padding-right: 20px;
+		float: left;
+		max-width: 250px;
+		text-align: center;
+		clear: left;
+	}
+}
+.form-control
+{
+	width:80%;
+}
+.modal-body
+{	
+	margin:0 auto;
 
+}
+.modal-header
+{
+	border:0;
+}
+.col-sm-12
+{
+	padding:30px 50px;
+	margin:0 auto;
 
-
+}
+.col-sm-12 .btn-default
+{
+	border-color: #79bae8;
+	color:#79bae8
+}
+@media (min-width: 768px)
+.col-sm-12 {
+    width: 80%;
+}
